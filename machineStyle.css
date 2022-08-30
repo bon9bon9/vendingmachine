@@ -1,0 +1,91 @@
+.dontshow{
+	display:none;
+}
+.show{
+	display:flex;
+	flex-direction: column;
+}
+
+
+#firstPage{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-left: 40%;
+	padding-right:40%;
+	padding-top:10%;
+}
+#firstPage>input{
+	width:100%;
+}
+
+h2{
+	margin-top :10px;
+	margin-left :10px;
+	
+}
+
+.box{
+	margin-top:10px;
+	display:flex;
+	justify-content:space-evenly;
+	width:100%;
+}
+.leftBox{
+	width:55%;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:space-evenly;
+	align-content:flex-start;
+}
+.item{
+	width:30%;
+	height:fit-content;
+	padding:5%;
+	margin-bottom : 10px;
+}
+.rightBox{
+	width:35%;
+}
+
+
+#profile{
+	display:flex;
+}
+
+#inputTotal,#jandon,#cartTotal{
+	display:flex;
+	justify-content: end;
+	margin-right:10px;
+	margin-bottom:10px;
+	/* margin:5px 3px; */
+}
+#inputTotal>input,#jandon>input,#cartTotal>input{
+	margin-left:10px;
+}
+
+#addItem>input{
+	margin:2px auto;
+	width:100%;
+}
+
+.logout{
+	height:10%;
+	margin:auto 10px;
+}
+
+#calculate>input{
+	width:100%;
+	margin-bottom: 20px;
+}
+
+#calculalte>table{
+	width:100%;
+}
+
+#tables{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
